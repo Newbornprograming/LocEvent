@@ -22,6 +22,7 @@ struct ListingDetailView: View {
                                 .fill(.white)
                                 .frame(width: 32, height: 32)
                         }
+                        .padding(.vertical, 40)
                         .padding(32)
                 }
             }
@@ -135,9 +136,10 @@ struct ListingDetailView: View {
             
             
         }
+        .navigationBarBackButtonHidden()
     }
 }
 
-#Preview {
+#Preview { 
     ListingDetailView()
 }

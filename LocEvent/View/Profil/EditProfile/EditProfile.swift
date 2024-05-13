@@ -1,8 +1,15 @@
-//
-//  EditProfile.swift
-//  LocEvent
-//
-//  Created by MacBook Air on 13/05/24.
-//
+import SwiftUI
 
-import Foundation
+struct EditProfile: View {
+    var body: some View {
+        HStack{
+        Text("Edit Profile")
+                        
+        }
+                
+    }
+}
+
+#Preview {
+    EditProfile()
+}
